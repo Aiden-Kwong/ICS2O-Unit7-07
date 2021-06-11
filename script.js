@@ -22,11 +22,11 @@ function multiplyInputs () {
   if ((!isNaN(num1) && !isNaN(num2)) && ((num1 >= 0) && (num2 >= 0))) {
     // This loop adds the first number to the product until the counter is equivalent to the second number.
     for (counter = 0; counter < num2; counter++) {
-    product = product + num1
+      product = product + num1
     }
-      // Write the answer in both the answer paragraph and in the console.
-      console.log(product)
-      document.getElementById('answer').innerHTML = `The product is ${product}.`
+    // Write the answer in both the answer paragraph and in the console.
+    console.log(product)
+    document.getElementById('answer').innerHTML = `The product is ${product}.`
 
   // If not equal to zero or above, send this error message.
   } else {
